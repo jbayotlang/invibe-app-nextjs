@@ -3,7 +3,6 @@
 import { useMutation } from '@tanstack/react-query';
 import { apiClient } from '@/lib/axios-client';
 
-// Types for login
 export type TLoginInput = {
   email: string;
   password: string;
